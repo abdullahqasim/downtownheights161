@@ -1,0 +1,148 @@
+#logo{
+    position: relative;
+    border-bottom: 2px solid #000;
+}
+#logo .container{
+    max-width: 1350px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 81px;
+    left: 0px;
+}
+.border-input{
+    border: 0;
+    border-bottom: 2px solid #000;
+}
+#logo .search-icon{
+    position: absolute;
+    top: 18%;
+    right: 19px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
+.font{
+    font-size: 12px;
+}
+.dropdown-bg{
+    background-color: #f2f5f7;
+}
+#product h1{
+    font-size: 54px;
+}
+#product p{
+    font-size: 24px;
+}
+.accordion-button{
+    background-color: #000;
+    color: #fff;
+}
+.accordion-button:not(.collapsed){
+    background-color: #000;
+    color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+.logo_div img{
+  width : 150px
+}
+.edit{
+  margin-left: 10px;
+}
+#accordionExample p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.mega-menu{
+  position: relative;
+}
+
+#mega ul li{
+  list-style: none;
+}
+#mega img, #blinds img,#DRAPES img,#SHUTTERS img,#VALANCES img{
+  width: 350px;
+}
+
+.accordion-button{
+  background-color: #454f9b !important;
+}
+.cart_count {
+  padding: 6px 8px;
+    background-color: red;
+    border-radius: 20px;
+}
+.cart_total_area {
+  background-color: #f9f9f9;
+}
+.cart_total_area .d-flex div {
+  width: 50%;
+  font-size: 24px;
+  font-weight: 500;
+}
+.billing_form input[type = text], .billing_form input[type = email], .billing_form textarea, .billing_form button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.bold_h{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*add to cart popup*/
+
+#add_to_cart_pop {
+  position: absolute;
+  z-index: 99999;
+  max-width: 100%;
+  padding: 30px;
+  background: linear-gradient(135deg, #333, #230f23);
+  display: none;
+}
+#add_to_cart_pop img {
+  width: 400px;
+  height: 400px;
+}
+#add_to_cart_pop h4 {
+  font-size: 28px;
+}
+#add_to_cart_pop .text_heading {
+  padding: 10px 20px;
+}
+.inner_popUp {
+  width: 90%;
+  height: 100vh;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  top: 2px;
+  right: 30px;
+  font-size: 36px;
+  background-color: #fff;
+  padding: 0px 20px;
+}
+
+@media screen and (max-width: 576px) {
+      #add_to_cart_pop img {
+        width: 100px;
+        height: 100px;
+      }
+      #add_to_cart_pop h4 {
+        font-size: 18px;
+        padding: 5px 10px !important;
+      }
+      #add_to_cart_pop .text_heading {
+        padding: 0px;
+      }
+
+    }
